@@ -2,7 +2,7 @@
 
 [![Crates.io](https://img.shields.io/crates/v/bevy_gradient_background.svg)](https://crates.io/crates/bevy_gradient_background) [![Docs.rs](https://docs.rs/bevy_gradient_background/badge.svg)](https://docs.rs/bevy_gradient_background) [![License](https://img.shields.io/crates/l/bevy_gradient_background.svg)](https://crates.io/crates/bevy_gradient_background)
 
-Bevy gradient background adds a simple 2-color, top-to-bottom gradient background to the scene.
+Bevy gradient background adds a simple two-color, top-to-bottom gradient background to the scene.
 
 ![preview](preview.png)
 
