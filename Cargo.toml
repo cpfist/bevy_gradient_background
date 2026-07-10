@@ -1,6 +1,6 @@
 [package]
 name = "bevy_gradient_background"
-version = "0.1.0"
+version = "0.1.1"
 categories = ["game-engines", "graphics", "rendering"]
 description = "Bevy gradient background plugin"
 repository = "https://github.com/cpfist/bevy_gradient_background"

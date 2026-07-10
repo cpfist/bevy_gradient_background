@@ -1,4 +1,5 @@
 use bevy::{
+    asset::embedded_asset,
     camera::visibility::RenderLayers,
     prelude::*,
     render::render_resource::{AsBindGroup, ShaderType},
@@ -28,6 +29,8 @@ impl Default for GradientBackgroundPlugin {
 
 impl Plugin for GradientBackgroundPlugin {
     fn build(&self, app: &mut App) {
+        embedded_asset!(app, "assets/gradient.wgsl");
+
         let t = self.top_color.to_srgba();
         let b = self.bottom_color.to_srgba();
 
@@ -59,7 +62,7 @@ struct GradientColors {
 
 impl Material2d for GradientMaterial {
     fn fragment_shader() -> ShaderRef {
-        "shaders/gradient.wgsl".into()
+        "embedded://bevy_gradient_background/assets/gradient.wgsl".into()
     }
 }
 
