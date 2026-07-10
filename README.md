@@ -4,6 +4,8 @@
 
 Bevy gradient background adds a simple 2-color, top-to-bottom gradient background to the scene.
 
+![preview](preview.png)
+
 For compatibility, see the [version table](#compatible-bevy-versions).
 
 ## Example
