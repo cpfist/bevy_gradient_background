@@ -12,12 +12,12 @@ For compatibility, see the [version table](#compatible-bevy-versions).
 
 ```rust
 use bevy::prelude::*;
-use bevy_gradient_background::GradientBackground;
+use bevy_gradient_background::GradientBackgroundPlugin;
 
 fn main() {
     App::new()
         .add_plugins(DefaultPlugins)
-        .add_plugins(GradientBackground {
+        .add_plugins(GradientBackgroundPlugin {
             top_color: Color::srgb_u8(0, 0, 255),
             bottom_color: Color::srgb_u8(0, 255, 0),
             ..default()
